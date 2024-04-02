@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Battle</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./pokemon.css">
+</head>
+<body>
+    <img src="./pokemonlogo.png" class="center">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h2 class="Red">Trainer Red's Pokémon</h2>
+                <div class="pokemon-img-container">
+                    <img src="https://img.pokemondb.net/sprites/black-white/anim/back-normal/charizard.gif" alt="Charizard" class="pokemon-img">
+                    <img src="fire.gif" alt="Fire" class="pokemon-gif fire-gif">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2 class="Brendan">Trainer Brendan's Pokémon</h2>
+                <div class="pokemon-img-container">
+                    <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/sceptile.gif" alt="Sceptile" class="pokemon-img-s">
+                    <img src="cutting.gif" alt="Cutting" class="pokemon-gif cutting-gif">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <h3>Battle Log</h3>
+                <ul id="battle-log" class="list-group">
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <button id="start-battle" class="btn btn-primary">Start Battle</button>
+            </div>
+        </div>
+    </div> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="./pokemon.js"></script>
+</body>
+</html>
